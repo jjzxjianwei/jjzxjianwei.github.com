@@ -1,0 +1,50 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+## Base settings ##
+
+# 网站跟目录地址
+base_path: ''
+title: jianwei's Blog
+description: > #this means to ignore newlines until "nav_lists:"
+  博客内容主要围绕日常生活展开，生活中的人生感悟、音乐、技术、做菜都会涉及，希望能与更多的朋友交流！
+
+nav_lists:
+  - title: 简介
+    url: /about.html
+
+## Language & timezone ##
+lang: zh #the language of your site
+timezone: Asia/Shanghai
+
+## Author & social ##
+author: Someone
+
+
+## Paginate ##
+paginate: 3
+paginate_path: /blog/page:num
+
+## Post excerpts ##
+excerpt_separator: <!--more-->
+
+## Build ##
+markdown: kramdown
+highlighter: rouge
+permalink: date
+
+## Plugins ##
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jemoji
+
+
+
+## Development ##
+isdebug: false
