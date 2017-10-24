@@ -87,7 +87,7 @@
 
 <div class="m-tags">
     <button type="button" class="article-tag tag-show-all round-rect-button" onclick="tagSelect('')">
-        所有文章<div class="tag-count"> 1 </div>
+        所有文章<div class="tag-count"> 4 </div>
     </button>
     
         
@@ -100,8 +100,36 @@
         
         
         
-        <button type="button" class="article-tag tag-推荐 tag-1 tag-other round-rect-button" onclick="tagSelect('推荐')">
-                推荐<div class="tag-count">1</div>
+        <button type="button" class="article-tag tag-感悟 tag-2 tag-other round-rect-button" onclick="tagSelect('感悟')">
+                感悟<div class="tag-count">2</div>
+        </button>
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <button type="button" class="article-tag tag-电影 tag-1 tag-other round-rect-button" onclick="tagSelect('电影')">
+                电影<div class="tag-count">1</div>
+        </button>
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <button type="button" class="article-tag tag-生活 tag-1 tag-other round-rect-button" onclick="tagSelect('生活')">
+                生活<div class="tag-count">1</div>
         </button>
     
 </div>
@@ -114,13 +142,34 @@
                 
                 
                     
-                    <section id="09月01日">
+                    <section id="10月22日">
                     <h1 class="yaer-title" id="year-2017">2017</h1>
                     <ul class="post-list">
                     
                 
-                <li class="post-block  tag-推荐 ">
-                    <span class="post-date">09月01</span><a class="post-link" href="/%E6%8E%A8%E8%8D%90/2017/09/01/jianwei.html">战狼2国内的票房奇迹</a>
+                <li class="post-block  tag-生活 ">
+                    <span class="post-date">10月22</span><a class="post-link" href="/2017/10/22/jianwei.html">穷忙人生</a>
+                </li>
+                
+            
+                
+                
+                <li class="post-block  tag-感悟 ">
+                    <span class="post-date">10月20</span><a class="post-link" href="/2017/10/20/jianwei.html">红尘隐</a>
+                </li>
+                
+            
+                
+                
+                <li class="post-block  tag-电影 ">
+                    <span class="post-date">09月01</span><a class="post-link" href="/2017/09/01/jianwei.html">战狼2国内的票房奇迹</a>
+                </li>
+                
+            
+                
+                
+                <li class="post-block  tag-感悟 ">
+                    <span class="post-date">06月08</span><a class="post-link" href="/2017/06/08/jianwei.html">城市的繁华背后</a>
                 </li>
                 </ul></section>
             
@@ -163,7 +212,7 @@
             $('.article-tag.tag-show-all').focus();
             $('.post-block').show();
         } else {
-            $('.page-heading').text('Tag: ' + tag);
+            $('.page-heading').text('文章分类: ' + tag);
             $('.post-block').not('.tag-' + tag).hide();
             $('.article-tag').filter('.tag-' + tag).focus();
             $('.post-block').filter('.tag-' + tag).show();
@@ -222,7 +271,7 @@
         </aside>
         <footer class="site-info">
             <p>© jianwei's Blog2017版</p>
-            <p>欢迎<a href="http://jekyllrb.com/">光临</a> & <a href="https://github.com/kitian616/jekyll-TeXt-theme">jianweibolg</a>.</p>
+            <p>欢迎<a href="#">光临</a> & <a href="#">jianweibolg</a>.</p>
             </p>
         </footer>
     </div>

@@ -1,12 +1,5 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
 ## Base settings ##
-
 # 网站跟目录地址
 base_path: ''
 title: jianwei's Blog
@@ -26,7 +19,7 @@ author: Someone
 
 
 ## Paginate ##
-paginate: 3
+paginate: 5
 paginate_path: /blog/page:num
 
 ## Post excerpts ##
