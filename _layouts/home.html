@@ -15,7 +15,88 @@ title: 博客
                 <div class="m-article-content">
                     {{ post.excerpt }}
                 </div>
-                {% include blog/article-data.html %}
+               
+			   
+			   
+			
+			   
+			   
+			   
+			   
+			   
+			   
+			   <div class="m-article-data clearfix">
+	{% if page %}
+        <meta itemprop="author" itemscope itemtype="https://schema.org/Person">
+            {% if page.author %}
+                <meta itemprop="name" content="{{ page.author }}"/>
+            {% elsif site.author %}
+                <meta itemprop="name" content="{{ site.author }}"/>
+            {% endif %}
+        </meta>
+	{% endif %}
+
+	{% if post %}
+    {% assign cur_page = post %}
+    {% elsif page %}
+    {% assign cur_page = page %}
+	{% endif %}
+	{% if cur_page.tags[0] %}
+        <div class="tag-wrapper">
+            {% for tag in cur_page.tags %}
+            <a class="article-tag round-rect-button" href="{{ "/all.html?tag=" |prepend: site.base_path | append: tag | replace: '//', '/' }}"> {{ tag }} </a>
+            {% endfor %}
+        </div>
+	{% endif %}
+    <div class="other-wrapper">
+        <div class="view-wrapper clearfix">                                         	
+            <span class="article-view" id="post-key-{{ cur_page.key }}">浏览量(<span data-hk-page="https://jjzxjianwei.github.io{{ post.url | prepend: site.base_path | replace: '//', '/' }}"> - </span>)</span>
+            |
+        </div>
+        <div class="date-wrapper">
+            {% if post %}                          
+                <span class="article-meta">{{ post.date | date: "%Y年%m月%d日" }}</span>
+            {% elsif page %}
+                <time class="article-meta" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                    {{ page.date | date: "%Y年%m月%d日" }}
+                </time>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
             </article>
             {% endfor %}
         </div>
