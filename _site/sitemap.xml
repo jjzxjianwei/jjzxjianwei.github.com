@@ -5,6 +5,10 @@
 <lastmod>2017-10-29T00:00:00+00:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2017/10/28/jianwei.html</loc>
+<lastmod>2017-10-28T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/2017/10/22/jianwei.html</loc>
 <lastmod>2017-10-22T00:00:00+00:00</lastmod>
 </url>
@@ -28,5 +32,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/page2/</loc>
 </url>
 </urlset>
