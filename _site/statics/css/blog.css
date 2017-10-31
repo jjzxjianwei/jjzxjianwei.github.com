@@ -115,7 +115,7 @@ a.hover, a.active, a.focus, a:hover, a:active, a:focus { color: #fc4d50; text-de
 
 .round-button.inactive { cursor: not-allowed; }
 
-.round-button { display: flex; align-items: center; justify-content: center; font-weight: 700; line-height: 1; height: 2em; width: 2em; box-sizing: border-box; padding: .4em; border-radius: 50%; -webkit-transition: all 0.8s ease 0s; -moz-transition: all 0.8s ease 0s; transition: all 0.8s ease 0s; }
+.round-button { display: block; text-align: center; align-items: center; justify-content: center; font-weight: 700; line-height: 1.2; height: 2em; width: 2em; box-sizing: border-box; padding: .4em; border-radius: 50%; -webkit-transition: all 0.8s ease 0s; -moz-transition: all 0.8s ease 0s; transition: all 0.8s ease 0s; }
 .round-button, .round-button:visited { background-color: #f2f2f2; color: #666; text-decoration: none; }
 .round-button.hover, .round-button.active, .round-button.focus, .round-button:hover, .round-button:active, .round-button:focus { background-color: #fc4d50; color: #fff; text-decoration: none; }
 .round-button svg { height: 1em; width: 1em; }
@@ -237,7 +237,7 @@ figcaption { font-size: 0.9em; }
 
 .m-pagination { padding: 10px 0; }
 .m-pagination .icon { display: block; }
-.m-pagination .icon > svg { width: 1.6em; height: 1.6em; margin: -1px; }
+.m-pagination .icon > svg { width: 1.6em; height: 1.6em; margin: -3px; }
 .m-pagination .cur-page .round-button { background-color: #fc4d50; border-color: #fc4d50; color: #fff; }
 .m-pagination li { list-style-type: none; float: left; }
 .m-pagination li:not(:last-child) { margin-right: 5px; }
