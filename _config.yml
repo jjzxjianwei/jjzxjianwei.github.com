@@ -2,7 +2,7 @@
 ## Base settings ##
 # 网站跟目录地址
 base_path: ''
-title: 蹇维的Blog
+title: jianwei's Blog
 description: > #this means to ignore newlines until "nav_lists:"
   博客内容主要围绕日常生活展开，生活中的人生感悟、音乐、技术、做菜都会涉及，希望能与更多的朋友交流！
 
