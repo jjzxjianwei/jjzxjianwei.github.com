@@ -33,7 +33,7 @@
   
  
 	
-    $.get("http://v.juhe.cn/chengyu/query?key=7166dccd7f522476455e9cce4c56b88c&word="+hanzi,function(data,status){
+    $.get("https://v.juhe.cn/chengyu/query?key=7166dccd7f522476455e9cce4c56b88c&word="+hanzi,function(data,status){
 		
              console.log(data);
     });
