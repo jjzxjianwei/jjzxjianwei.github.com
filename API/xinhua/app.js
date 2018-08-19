@@ -128,7 +128,7 @@ if(hzlenght>2 && hzlenght!=8){ //歇后语搜索支持模糊查询
     success : function(json){
         console.log(json);
     }
-
+});
   
 
 
