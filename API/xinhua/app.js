@@ -118,25 +118,16 @@ if(hzlenght>2 && hzlenght!=8){ //歇后语搜索支持模糊查询
 
   
 
-	/*  
-    $.get("https://www.pwxcoo.com/dictionary?type="+cd[0]+"&"+cd[1]+"="+hanzi,function(data,status){
-		
-             console.log(data);
-    });*/
 
-  	$.ajax({
 		
-		url:"https://www.pwxcoo.com/dictionary?type="+cd[0]+"&"+cd[1]+"="+hanzi,
+	
 		
-		 type: "GET",
-       dataType: 'JSON',
-		
-		
-		success:function(result){
-			//$("#div1").html(result);
-			
-			console.log(result);
-		}});
+				$.ajax({
+    url : "https://www.pwxcoo.com/dictionary?type="+cd[0]+"&"+cd[1]+"="+hanzi,
+    dataType : 'jsonp',
+    success : function(json){
+        console.log(json);
+    }
 
   
 

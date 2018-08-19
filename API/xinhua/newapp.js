@@ -62,6 +62,9 @@
     success : function(json){
         console.log(json);
     }
+	
+	
+	//无法跨越解决：https://zhidao.baidu.com/question/1540525815744974467.html
 });
 		
 		
