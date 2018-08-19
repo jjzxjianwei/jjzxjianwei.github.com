@@ -40,7 +40,7 @@
 	*/
 	
 	
-
+/*
   	$.ajax({
 		
 		url:"https://v.juhe.cn/chengyu/query?key=7166dccd7f522476455e9cce4c56b88c&word="+hanzi,
@@ -54,6 +54,24 @@
 			
 			console.log(result);
 		}});
+		*/
+		
+		$.ajax({
+    url : "https://v.juhe.cn/chengyu/query?key=7166dccd7f522476455e9cce4c56b88c&word="+hanzi,
+    dataType : 'jsonp',
+    success : function(json){
+        console.log(json);
+    }
+});
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
   
 
