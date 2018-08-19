@@ -122,13 +122,31 @@ if(hzlenght>2 && hzlenght!=8){ //歇后语搜索支持模糊查询
 		
 	
 		
-				$.ajax({
+
+  
+  
+  
+  
+  		$.ajax({
     url : "https://www.pwxcoo.com/dictionary?type="+cd[0]+"&"+cd[1]+"="+hanzi,
     dataType : 'jsonp',
     success : function(json){
         console.log(json);
     }
+	
+	
+	//无法跨越解决：https://zhidao.baidu.com/question/1540525815744974467.html
 });
+		
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
 
 
