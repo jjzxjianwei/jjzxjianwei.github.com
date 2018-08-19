@@ -32,18 +32,18 @@
 	 var hanzi= getparameter("word");
   
  
-	
+	/*
     $.get("https://v.juhe.cn/chengyu/query?key=7166dccd7f522476455e9cce4c56b88c&word="+hanzi,function(data,status){
 		
              console.log(data);
     });
+	*/
 	
 	
-	
-/*
+
   	$.ajax({
 		
-		url:"http://v.juhe.cn/chengyu/query?key=7166dccd7f522476455e9cce4c56b88c&word="+hanzi,
+		url:"https://v.juhe.cn/chengyu/query?key=7166dccd7f522476455e9cce4c56b88c&word="+hanzi,
 		
 		 type: "GET",
          dataType: 'JSON',
@@ -55,7 +55,7 @@
 			console.log(result);
 		}});
 
-  */
+  
 
 
 	 //并得到返回的JSON数据输出到当前页面下方
