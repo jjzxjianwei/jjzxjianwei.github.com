@@ -7,7 +7,7 @@ title: 博客简介
 
 ## 大家好（`(*∩_∩*)′）
 
-<img src="http://t1.aixinxi.net/o_1cfs3ms4ktts15dh12jf1ccp1mlsa.jpg-j.jpg"/>
+<img src="http://t1.aixinxi.net/o_1cqgj4q2fht931r15o42ou1tita.jpg-j.jpg"/>
 
 ## 纪念一下以前的版本
 ![](/postimg/notnewbolg.png)
