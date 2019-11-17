@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/2019/11/11/jianwei.html</loc>
-<lastmod>2019-11-11T00:00:00+00:00</lastmod>
+<loc>http://localhost:4000/2019/11/17/jianwei.html</loc>
+<lastmod>2019-11-17T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2019/11/16/jianwei.html</loc>
+<lastmod>2019-11-16T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2019/11/15/jianwei.html</loc>
+<lastmod>2019-11-15T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2019/11/14/jianwei.html</loc>
+<lastmod>2019-11-14T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2019/11/12/jianwei.html</loc>
+<lastmod>2019-11-12T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/2019/11/10/jianwei.html</loc>
@@ -16,6 +32,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/page2/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/API/xinhua/xinhua.html</loc>
